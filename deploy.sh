@@ -14,7 +14,7 @@ git add -A
 git commit -m 'deploy'
 
 # 將 dist 資料夾中的內容推送至遠端的 gh-pages 分支中，並強制無條件將舊有的內容取代成目前的內容（指令 git push -f）
-git push -f git@github.com:muncyhou/Realtime-Chatroom.git master:gh-pages
+git push -f git@github.com:achun1130/Realtime-Chatroom.git master:gh-pages
 cd -
 
 # 執行指令，在終端機輸入 sh deploy.sh
